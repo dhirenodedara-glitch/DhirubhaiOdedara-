@@ -1,0 +1,29 @@
+kind = "video"
+videoAspectRatio = "9:16"
+previewPath = "/vibeup-video/"
+title = "VibeUp Launch Video"
+description = "A vertical animated product story for VibeUp, showing how a supportive AI life coach turns everyday intentions into confident action, healthy habits, and visible progress."
+version = "1.0.0"
+id = "artifacts/vibeup-launch-video"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/vibeup-video/" ]
+localPort = 18785
+
+[services.development]
+run = "pnpm --filter @workspace/vibeup-launch-video run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/vibeup-launch-video", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/vibeup-launch-video/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18785"
+BASE_PATH = "/vibeup-video/"

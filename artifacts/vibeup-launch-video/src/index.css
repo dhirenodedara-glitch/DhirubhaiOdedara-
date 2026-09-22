@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --color-primary: #6650c9;
+  --color-secondary: #b9a8ff;
+  --color-accent: #ff816d;
+  --color-mint: #b9e6cf;
+  --color-cream: #fff6e9;
+  --color-lilac: #eee9ff;
+  --color-plum: #241b46;
+  --color-ink: #2d2548;
+  --color-muted: #746d89;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'DM Sans', sans-serif;
+}
+
+@theme inline {
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
+  --color-mint: var(--color-mint);
+  --color-cream: var(--color-cream);
+  --color-lilac: var(--color-lilac);
+  --color-plum: var(--color-plum);
+  --color-ink: var(--color-ink);
+  --color-muted: var(--color-muted);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--color-plum);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100dvh;
+}
+
+.vibe-video {
+  isolation: isolate;
+  background: var(--color-cream);
+  color: var(--color-ink);
+}
+
+.vibe-video::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 20;
+  opacity: 0.11;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.3'/%3E%3C/svg%3E");
+}
+
+.vibe-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.055em;
+}
+
+.vibe-label {
+  font-family: var(--font-body);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.vibe-phone-shadow {
+  box-shadow: 0 2.2vmin 6vmin rgba(36, 27, 70, 0.2), 0 0.5vmin 1vmin rgba(36, 27, 70, 0.12);
+}
+
+.vibe-hairline {
+  height: 1px;
+  background: currentColor;
+  opacity: 0.18;
+}
+
+@keyframes drift {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+  50% { transform: translate3d(1.2vmin, -1.4vmin, 0) rotate(2deg); }
+}
+
+@keyframes breathe {
+  0%, 100% { transform: scale(1); opacity: .65; }
+  50% { transform: scale(1.08); opacity: .9; }
+}
+
+.vibe-drift {
+  animation: drift 7s ease-in-out infinite;
+}
+
+.vibe-breathe {
+  animation: breathe 4s ease-in-out infinite;
+}
+
+.video-media-frame {
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.video-media-frame > :is(img, video) {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.video-media-frame[data-media-fit='contain'] > :is(img, video) {
+  object-fit: contain;
+}
+
+.video-media-frame[data-media-position='top'] > :is(img, video) {
+  object-position: top;
+}
+
+.video-media-frame[data-media-position='right'] > :is(img, video) {
+  object-position: right;
+}
+
+.video-media-frame[data-media-position='bottom'] > :is(img, video) {
+  object-position: bottom;
+}
+
+.video-media-frame[data-media-position='left'] > :is(img, video) {
+  object-position: left;
+}
