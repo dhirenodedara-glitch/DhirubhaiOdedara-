@@ -1,0 +1,274 @@
+Build a modern, highly engaging mobile app called VibeUp – Your AI Life & Social Coach, designed primarily for young adults aged 16–30.
+
+1. Main Concept
+
+VibeUp helps young people improve their confidence, social life, productivity, relationships, appearance, communication and personal development through an AI-powered personalised experience.
+
+The app should feel modern, addictive in a healthy way, visually attractive and easy to use.
+
+2. Core Features
+
+AI Personal Coach
+
+- Personal AI coach available 24/7.
+- Users choose their goals: confidence, fitness, study, career, relationships, money, social skills or productivity.
+- AI creates personalised daily recommendations.
+- Daily motivational messages.
+- Personal progress tracking.
+
+Daily Glow-Up
+Give users a daily checklist such as:
+
+- Exercise
+- Drink water
+- Study/work goal
+- Social challenge
+- Self-care
+- Reading
+- Sleep target
+- Confidence challenge
+
+Users earn XP and maintain streaks.
+
+AI Conversation Coach
+Allow users to practise:
+
+- Job interviews
+- Dating conversations
+- Making friends
+- Difficult conversations
+- Presentations
+- Networking
+
+AI should score communication and provide suggestions.
+
+AI Profile & Photo Coach
+Users can upload a photo and receive suggestions for:
+
+- Profile-picture quality
+- Outfit ideas
+- Hairstyle suggestions
+- LinkedIn profile improvements
+- Dating-profile improvements
+- Social-media bio improvements
+
+Do not make unrealistic claims about attractiveness.
+
+Goal Planner
+Users enter a goal such as:
+"I want to get a job in 3 months."
+
+AI creates:
+
+- Weekly plan
+- Daily tasks
+- Progress tracker
+- Reminders
+- Milestones
+
+Social Challenges
+Create optional challenges such as:
+
+- Talk to someone new
+- Exercise for 20 minutes
+- Learn something new
+- Complete a confidence task
+- Apply for one job
+
+Users can share achievements without exposing private information.
+
+3. Gamification
+
+Include:
+
+- XP points
+- Levels
+- Daily streaks
+- Badges
+- Achievements
+- Weekly challenges
+- Personal progress charts
+- Optional friend leaderboard
+
+Avoid manipulative mechanics and excessive notifications.
+
+4. Monetisation
+
+Use a Freemium + Subscription model.
+
+FREE:
+
+- Basic AI coach
+- Limited daily coaching
+- Basic challenges
+- Basic progress tracking
+
+PREMIUM:
+
+- Unlimited AI coaching
+- Advanced personalised plans
+- AI conversation practice
+- Advanced profile/photo coaching
+- Premium challenges
+- Detailed progress analytics
+- Custom AI coach personality
+- Exclusive templates
+
+Suggested pricing:
+
+- £5.99/month
+- £49.99/year
+- 7-day free trial
+
+Also offer optional one-time purchases for premium challenge packs and specialised career/interview packs.
+
+Do not use deceptive billing or difficult cancellation.
+
+5. App Design
+
+Create a premium Gen-Z-friendly interface.
+
+Style:
+
+- Clean
+- Minimal
+- Modern
+- Dynamic animations
+- Rounded cards
+- Large typography
+- Dark/light mode
+- Attractive gradients
+- Smooth transitions
+
+Bottom navigation:
+
+Home | Coach | Challenges | Progress | Profile
+
+The Home screen should show:
+
+- Today's goal
+- Current streak
+- XP
+- AI recommendation
+- Daily challenge
+- Progress summary
+
+6. Personalisation
+
+During onboarding ask:
+
+- Age range
+- Main goal
+- Current lifestyle
+- Interests
+- Career/study status
+- Preferred coaching style
+
+Allow users to change these later.
+
+7. Notifications
+
+Create useful optional notifications:
+
+- Daily goal reminder
+- Streak reminder
+- Challenge reminder
+- Weekly progress summary
+
+Allow users to completely control notification settings.
+
+8. Technical Requirements
+
+Build the app for:
+
+- iOS
+- Android
+
+Include:
+
+- Secure authentication
+- Apple/Google sign-in
+- User profile
+- Cloud database
+- Subscription management
+- Secure AI API integration
+- Analytics
+- Error handling
+- Privacy controls
+- Account deletion
+- Data export
+
+Never expose API keys in the mobile application.
+
+9. Safety & Privacy
+
+Protect user data.
+
+Include:
+
+- Privacy policy
+- Terms of service
+- Age-appropriate experience
+- Report/block functionality for social features
+- Secure photo handling
+- Delete-account option
+- Clear AI disclaimer
+
+Do not position the AI as a therapist, doctor or financial adviser.
+
+10. Growth Features
+
+Build referral functionality:
+
+"Invite 3 friends → receive 7 days of Premium."
+
+Create shareable achievement cards such as:
+
+"🔥 30-Day VibeUp Streak"
+
+Allow users to share cards to Instagram, TikTok and Snapchat.
+
+11. App Store Positioning
+
+App name:
+VibeUp
+
+Tagline:
+"Level up your life, one day at a time."
+
+Short description:
+Your AI-powered coach for confidence, productivity, career and personal growth.
+
+Create a professional onboarding flow and App Store screenshots designed to maximise conversion.
+
+12. Business Dashboard
+
+Create an admin dashboard showing:
+
+- Total users
+- Active users
+- Premium subscribers
+- Monthly recurring revenue
+- Trial conversions
+- Churn
+- Most-used features
+- Daily active users
+- Referral performance
+
+Design the architecture so additional AI features and subscription tiers can be added later.
+
+Final Goal
+
+The finished product should look like a real commercial startup, not a basic AI demo.
+
+Prioritise:
+
+1. Excellent user experience
+2. Strong retention
+3. Genuine user value
+4. Subscription conversion
+5. Privacy and security
+6. Fast performance
+7. Viral/shareable features
+
+Create the complete product including UI/UX, screens, navigation, database structure, backend architecture, subscription flow, onboarding and production-ready code.
