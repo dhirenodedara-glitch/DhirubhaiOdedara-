@@ -1,0 +1,9 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "omWvVfhUyAkMeE2r0WTEu"
+uri = "file://artifacts/vibeup-launch-video/public/audio/bg_music.mp3"
+type = "audio"
+title = "VibeUp background music"
+description = "Generated music: Warm optimistic lo-fi pop instrumental background music scoring a vertical consumer wellness and confidence app launch film. Soft analog synths, muted guitar plucks, rounded bass, cr…"
